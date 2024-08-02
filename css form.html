@@ -1,0 +1,170 @@
+          <html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+* 
+{
+margin:0%;
+padding:0%;
+
+box-sizing:border-box;
+}
+body{
+background-color: black;
+}
+.circleone
+{
+height:200px;
+width:200px;
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(76,92,241,1) 2%, rgba(147,161,251,1) 27%, rgba(107,134,224,1) 63%, rgba(70,122,252,1) 100%);
+border-radius:50%;
+position:absolute;
+ left:25%;
+ top:40px;
+}
+.circletwo
+{
+height:200px;
+width:200px;
+background: radial-gradient(circle, rgba(200,114,151,1) 0%, rgba(236,130,193,1) 26%, rgba(244,126,228,1) 50%, rgba(223,202,231,1) 69%, rgba(233,148,230,1) 100%);
+border-radius:50%;
+position:absolute;
+left:50%;
+bottom:8%;
+}
+
+
+
+form{
+    height: 650px;
+    width: 500px;
+    background-color: rgba(255,255,255,0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+
+	
+    top: 50%;
+	right-side:50%;
+    left: 40%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+}
+
+form *{
+    
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+h3{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+}
+form h1
+{
+    font-size: 32px;
+    font-weight: 500;
+	 
+    text-align: center;
+	
+	
+}
+label{
+
+padding:1px;
+	
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+input{
+    display:inline-block;;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(250,250,250,0.10);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+.placeholder{
+    color: #e5e5e5;
+}
+.social
+{
+display:flex;
+
+}
+
+
+.google{
+width:40%;
+height:40px;
+background-color:grey;
+margin-top:10%;
+line-height:40px;
+text-align:center;
+font-size:18px;
+
+
+}
+.facebook{
+width:40%;
+height:40px;
+background-color:grey;
+margin-top:10%;
+margin-left:10%;
+line-height:40px;
+text-align:center;
+}
+
+
+
+</style>
+
+
+<body>
+<div class=circleone></div>
+<div class=circletwo></div>
+<form>
+<h1>Log in here</h1><br>
+<label for="username">Username</label>
+   <input type="text" placeholder="Email or Phone" id="username">
+
+ <label for="password"><br>Password</label>
+   <input type="password" placeholder="Password" id="password">
+   <input type="submit" value="log in">
+   <div class=social>
+  <div class=google><i class="ri-google-fill">Google</i></div>
+ 
+  <div class=facebook><i class="ri-facebook-circle-fill">Facebook</i></div>
+  
+   
+ 
+
+   
+   
+   </div>
+   
+   
+   
+   
+   
+</form>
+ 
+
+ 
+
+
+
+
+</body>
+</html>
